@@ -18,7 +18,7 @@ public class TestArmStrongNum {
 	
 	@Test
 	public void checkArmStrong() {
-		boolean flag=asn.isArmStrongForThreeDigit(371);
+		boolean flag=asn.isArmStrongForThreeDigit(3751);
 		assertTrue(flag);
 		
 	}

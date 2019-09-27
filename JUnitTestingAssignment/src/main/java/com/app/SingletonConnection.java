@@ -14,8 +14,8 @@ public class SingletonConnection {
 	public static synchronized Connection getConnection() {
 		if(connection==null) {
 			try {
-				Class.forName("oracle.jdbc.driver.OracleDriver");
-				connection=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","system","manager");
+				Class.forName("com.mysql.cj.jdbc.Driver");
+				connection=DriverManager.getConnection("jdbc:mysql:///springdb","root","root");
 				return connection;
 			} catch (Exception e) {
 					e.printStackTrace();

@@ -17,7 +17,7 @@ public class TestCaptchaAndOtp {
 		otp=new CaptchaAndOTP();
 	}
 
-	@Test
+	//@Test
 	public void testOtp() {
 		int myOtp=otp.getOtp();
 		if(myOtp>1000) {

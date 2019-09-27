@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.nit.service.test.TestCalculatorService
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.827 sec
